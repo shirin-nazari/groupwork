@@ -1,0 +1,55 @@
+body{
+font-family: parasto;
+font-weight: bold;
+text-align: justify;
+}
+@font-face{
+    font-family: parasto;
+    src: url('Parastoo.ttf');
+}
+li{
+    display: inline;
+    padding: 10px;
+}
+nav a{
+    text-decoration-line: none;
+    /* color:rgb(39, 29, 29); */
+color: ghostwhite;
+}
+header{
+    /* background-color:#f5f5f563; */
+    background-color: #00334ed2;
+/* color:ghostwhite; */
+}
+main{
+    padding: 2px 10px 2px 10px;
+  background-color: #e0ece47c;
+/* background-color: #00334e8c; */
+color: rgba(19, 19, 29, 0.678);
+  text-align: center; 
+}
+main pic{
+    width: fit-content;
+float: right;
+}
+.footer-main-div{
+ width: 100%;
+ height: auto;
+ margin: auto;
+    /* background-color: #f5f5f563; */
+    background-color: #00334ed2;
+color: ghostwhite;
+     padding: 20px 0px;
+     display: inline-block;
+ }
+ .footer-social-connect{
+display: inline;
+     height: auto;
+     margin: auto;
+     vertical-align: middle;
+ }
+ .footer-social-form{
+     display: inline;
+     text-align: right;
+    vertical-align: middle;
+}
